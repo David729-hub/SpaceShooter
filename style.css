@@ -7,7 +7,7 @@ body{
     padding: 0;
     margin: 0;
     font-family: sans-serif;
-    background-color: cornflowerblue;
+    background-color: #0984e3;
 }
 #main-play-area {
     background-color: black;
@@ -22,4 +22,39 @@ body{
     left: 20px;
     top: 250px
 }
+.laser {
+    position: relative;
+    width: 40px;
+    height: 30px;
+}
+.game-instructions {
+    position: relative;
+    color: white;
+    left: 7rem;
+    top: 0px;
+}
 
+.start-button {
+    position: relative;
+    color: white;
+    top: 9rem;
+    left: 15rem;
+    cursor: pointer;
+}
+.alien {
+    height: 60px;
+    width: 70px;
+    position: relative;
+}
+
+.alien-transition {
+    opacity: 1;
+    transition: opacity 1.5s ease-in-out;
+}
+
+.dead-alien {
+    height: 60px;
+    width: 70px;
+    position: relative;
+    opacity: 0;
+}
